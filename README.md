@@ -30,4 +30,12 @@ This repository is related to the study: Vitanza, E., De Lellis, P., Mocenni, C.
 'complexity_metrics' folder contains: 
 - '1_RQA_Complexparalellv2.py' and '3_modifica_dataset.py', the python codes used to compute the complexity metrics of our time series.
 - The CSV result files exceed GitHub’s upload size limit, but it is possible to compute them by using the python codes.
-  
+
+'bagged_tree' folder contains:
+- 'dati_originali.m', the matlab code used to classify individuals though the original dataset.
+- 'e4_rqa_crqa_complex_fisher.m', the matlab code used to classify individuals though the complexity-based dataset.
+- 'ExtraTrees.m', a matlab subfunction.
+- 'rimuoviDuplicatiPerSoggetto.m', a matlab subfunction.
+- 'thsopt.m', a matlab subfunction.
+- 'roc_curve.m', the matlab code used to create the roc curve image.
+- 'roc_curve.png', the roc curve image.
