@@ -18,3 +18,16 @@ This repository is related to the study: Vitanza, E., De Lellis, P., Mocenni, C.
 - Foder 'results_fusion_2', containing the final fusion networks for GAD, MDD and comorbidity.
 
 'network_metrics' folder contains:
+- 'network_measures.py', the python code to compute netwoek measures from our fusion causal graphs.
+- 'istogrammi.py', the python code to create the histograms for each network measure: in degree, out degree, degree, closeness centrality, betweenness centrality.
+- Folder 'results', containing both the csv files results and the histograms.
+
+'graph_kernels' folder contains:
+- 'new_diag_graph_kernel.R', the R code to compute the similarity matrix through degree distribution graph kernel within each diagnosis.
+- 'new_fusion_graph_kernel.R', the R code to compute the similarity matrix through Weisfeiler-Lehman (WL) graph kernel between fusion networks.
+- The resulting images of such codes: 'gad.png', 'mdd.png', 'gad_mdd.png', 'wl.png'.
+
+'complexity_metrics' folder contains: 
+- '1_RQA_Complexparalellv2.py' and '3_modifica_dataset.py', the python codes used to compute the complexity metrics of our time series.
+- 
+  
