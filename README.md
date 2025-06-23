@@ -29,5 +29,5 @@ This repository is related to the study: Vitanza, E., De Lellis, P., Mocenni, C.
 
 'complexity_metrics' folder contains: 
 - '1_RQA_Complexparalellv2.py' and '3_modifica_dataset.py', the python codes used to compute the complexity metrics of our time series.
-- 
+- The CSV result files exceed GitHub’s upload size limit, but it is possible to compute them by using the python codes.
   
